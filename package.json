@@ -6,7 +6,8 @@
     "vite": "^5.4.11"
   },
   "scripts": {
-    "build": "tailwindcss -i ./main.css -o ./style.css --watch",
-    "dev": "vite"
+    "build": "tailwindcss -i ./main.css -o ./dist/style.css --watch",
+    "dev": "vite",
+    "vercel-build": "vite build && cp -r dist vercel"
   }
 }
