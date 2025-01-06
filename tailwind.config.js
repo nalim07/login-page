@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-login': "url('/public/bg-login.png')",
-        'dark-login': "url('/public/dark-login.png')",
+        'bg-login': "url('/public/light-login.webp')",
+        'dark-login': "url('/public/dark-login.avif')",
         'dark-ilustration': "url('/public/dark-ilustration.svg')"
       }
     },
