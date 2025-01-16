@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'bg-login': "url('/public/light-login.webp')",
-        'dark-login': "url('/public/dark-login.avif')",
+        'dark-login': "url('/public/dark-login.webp')",
         'dark-ilustration': "url('/public/dark-ilustration.svg')"
       }
     },
